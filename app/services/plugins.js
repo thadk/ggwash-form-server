@@ -13,6 +13,9 @@ module.exports = function (server, cb) {
           }
         }]
       }
+    },
+    {
+      register: require('h2o2')
     }
     // Plugin registration done.
   ], (err) => cb(err));
